@@ -13,8 +13,10 @@
 
 1. [Install Composer](https://getcomposer.org/doc/00-intro.md)
 2. Check PHP version. Should be 7.4 at least
-3. Install dependencies: `composer install`
-4. Execute tests: `make run-tests`
+3. Clone this project: `git clone https://github.com/marydn/basket.git`
+4. Move to the project folder: `cd basket`
+5. Install dependencies: `composer install`
+6. Execute tests: `make run-tests`
 
 ### Diving project structure:
 
