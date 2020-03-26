@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    php:
+        container_name: terminal-php
+        image: php:7.4.2-fpm
+        restart: unless-stopped
+        working_dir: /app
+        ports:
+            - "9000:9001"
+        volumes:
+            - .:/app:delegated
